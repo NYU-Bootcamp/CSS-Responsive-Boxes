@@ -2,6 +2,8 @@ body {
   background: blanchedalmond;
   margin: 0px;
 }
+
+/* Use Flex to Align All Elements for Mobile Screens */
 .container {
   display: flex;
   flex-direction: column;
@@ -27,6 +29,7 @@ header, main, footer {
   font-size: 3em;
 }
 
+/* Use media rule to Align Elements for Larger Screens */
 @media(min-width: 600px) {
   .container {
     flex-direction: row;
